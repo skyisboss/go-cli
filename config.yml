@@ -1,0 +1,16 @@
+version: 1.0.0
+logger:
+  pretty: true
+  level: debug
+
+server:
+  port: 80
+
+providers:
+  salt_key: 20231010
+  redis:
+    host: 
+    auth:
+    port: 6379
+    db: 0
+    pool: 30
